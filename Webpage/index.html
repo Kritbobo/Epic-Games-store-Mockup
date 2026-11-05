@@ -1,0 +1,3684 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Epic Games</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="header-left">
+
+
+
+        <div class="hamburger-menu mobile-only-content">
+          <button id="hamburgerBtn" aria-label="Open menu" style="background:none;border:none;padding:0;">
+            <img src="img/logo1.png" alt="Open menu" style="width:32px;height:32px;">
+            <img src="img/dropdown.png" alt="Open menu" style="width:20px;height:20px;">
+          </button>
+        </div>
+
+        <!-- ...existing code... -->
+        <!-- Hamburger overlay menu -->
+        <div id="mobileMenuOverlay" class="mobile-menu-overlay">
+          <div class="mobile-menu-content">
+            <button id="closeMenuBtn" class="close-menu-btn" aria-label="Close menu">&times;</button>
+            <div class="mobile-menu-header">
+              <img src="img/logo1.png" style="width:40px;">
+              <span style="font-size:1.5rem;font-weight:bold;">Steam</span>
+            </div>
+            <div class="mobile-menu-section">
+              <div class="menu-title">เล่น</div>
+              <div class="menu-item"><img src="img/Team_Fortress_2_style_logo.svg.png" class="menu-icon"> Team Fortress
+                2</div>
+              <div class="menu-item"><img src="img/counterlogo.jpg" class="menu-icon"> Counter Strike 2</div>
+              <div class="menu-item"><img src="img/Half-Life_lambda_logo.svg.png" class="menu-icon"> Half Life</div>
+            </div>
+            <div class="mobile-menu-section">
+              <div class="menu-title">ค้นหา</div>
+              <div class="menu-item"><img src="img/logo1.png" class="menu-icon"> Steam Games Store</div>
+              <div class="menu-item"><img src="img/unity-game-engine-icon.jpg" class="menu-icon"> Unity</div>
+              <div class="menu-item"><img src="img/sketchfap_logo.png" class="menu-icon"> Sketchfab</div>
+              <div class="menu-item"><img src="img/artstation_logo.png" class="menu-icon"> ArtStation</div>
+            </div>
+            <div class="mobile-menu-section">
+              <div class="menu-title">สร้าง</div>
+              <div class="menu-item"><img src="img/unrealengine_logo.png" class="menu-icon"> Unreal Engine</div>
+              <div class="menu-item"><img src="img/Garry's_Mod_logo.svg.png" class="menu-icon"> สร้างใน Garry's Mod</div>
+              <div class="menu-item"><img src="img/logo1.png" class="menu-icon"> MetaSteam</div>
+              <div class="menu-item"><img src="img/logo1.png" class="menu-icon"> TwinMotion</div>
+              <div class="menu-item"><img src="img/realityscan_logo.png" class="menu-icon"> RealityScan</div>
+              <div class="menu-item"><img src="img/SteamGuard_logo.png" class="menu-icon"> Steam Online Services</div>
+              <div class="menu-item"><img src="img/logo1.png" class="menu-icon"> เผยแพร่บน Steam Store</div>
+            </div>
+          </div>
+        </div>
+
+        <!--------------------------------- Logo Mega Dropdown --------------------------------->
+        <div class="dropdown logo-dropdown">
+          <img src="img/logo1.png" class="logo" alt="logo">
+          <div class="mega-menu">
+
+            <!-- คอลัมน์ 1 -->
+            <div class="menu-column">
+              <h4>Play</h4>
+              <a href="#">Team Fortress 2</a>
+              <a href="#">Counter-Strike2</a>
+              <a href="#">Half Life</a>
+
+              <hr class="menu-divider">
+
+              <h4>Search</h4>
+              <a href="#">Steam Store</a>
+              <a href="#">Unity</a>
+              <a href="#">Sketchfab</a>
+              <a href="#">ArtStation</a>
+            </div>
+
+            <!-- คอลัมน์ 2 -->
+            <div class="menu-column">
+              <h4>Create</h4>
+              <a href="#">Unreal Engine</a>
+              <a href="#">สร้างใน Garry's Mod</a>
+              <a href="#">MetaSteam</a>
+              <a href="#">Twinmotion</a>
+              <a href="#">RealityScan</a>
+              <a href="#">Steam Online Services</a>
+              <a href="#">เผยแพร่บน Steam Store</a>
+            </div>
+
+          </div>
+        </div>
+
+        <!--------------------------------- Logo Mega Dropdown --------------------------------->
+
+
+        <!--------------------------------- Distribute Dropdown --------------------------------->
+        <nav class="nav">
+          <b><a href="#">STORE</a></b>
+          <a href="#">Support</a>
+          <div class="dropdown">
+            <button class="distribute-btn">Distribute
+              <svg class="dropdown-icon" viewBox="0 0 20 20">
+                <path d="M5.25 7.75L10 12.5l4.75-4.75h-9.5z" />
+              </svg>
+            </button>
+            <div class="dropdown-menu">
+              <a href="#">Available on Steam</a>
+              <a href="#">Developer Forum</a>
+              <a href="#">Other</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="header-right">
+        <img src="./img/lang.png" style="max-width: 25px;">
+        <button class="btn gray">Sign-in</button>
+        <button class="btn blue">Dowload</button>
+      </div>
+    </header>
+
+    <!--------------------------------- Distribute Dropdown --------------------------------->
+
+    <!-- Header -->
+
+
+    <!-- Subnav -->
+    <div class="subnav">
+
+      <input type="text" placeholder="Search store" class="search-box">
+      <a href="#" class="highlight">Search</a>
+      <a href="#" class="highlight">Browse</a>
+      <a href="#" class="highlight">News</a>
+    </div>
+
+    <!-- Subnav -->
+    <div class="mobile-top-bar">
+      <button class="search-btn">
+        <img src="./img/search.png" style="max-width: 25px;">
+      </button>
+      <span class="search-title">Search</span>
+      <div style="width:32px;"></div> <!-- เว้นว่างด้านขวา ให้กึ่งกลางอยู่ตรงกลาง -->
+    </div>
+
+    <div class="mobile-only-content">
+
+
+      <!-- แถวบน -->
+
+
+      <!-- Banner -->
+      <div class="banner" id="mobileBanner">
+        <div class="banner-inner" id="mobileBannerContainer">
+          <img id="mobileBannerImage" src="img/banner1.png" class="banner-img" alt="Banner Image">
+          <div class="banner-overlay">
+            <h1 id="mobileBannerTitle">Counter-Strike 2</h1>
+            <p id="mobileBannerDesc">Improved performance, weapon balancing, and long-awaited bug fixes — dive into
+              smoother action now!</p>
+          </div>
+        </div>
+        <div class="banner-dots" id="mobileBannerDots"></div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+
+
+    <section class="main-content">
+      <div class="banner">
+        <div id="bannerContainer" class="banner-inner">
+          <img id="bannerImage" src="img/banner1.png" class="banner-img" alt="Banner Image">
+          <video id="bannerVideo" class="banner-img" autoplay muted loop style="display: none;">
+            <source id="videoSource" src="video/video1.mp4" type="video/mp4">
+          </video>
+          <div class="banner-overlay">
+            <h1 id="bannerTitle">Counter-Strike 2</h1>
+            <p id="bannerDesc">Improved performance, weapon balancing, and long-awaited bug fixes — dive into smoother
+              action now!</p>
+            <div class="banner-buttons">
+              <span class="price">Free</span>
+              <button class="btn white">Free to play now </button>
+              <button class="add-fav">+Add wishlist</button>
+            </div>
+          </div>
+        </div>
+        <div class="banner-dots" id="bannerDots"></div>
+      </div>
+
+      <aside class="game-list">
+        <div class="sale-title">Featured</div>
+
+        <div class="game-item" data-game-key="CounterStrike">
+          <img src="img/mini_banner1.png" alt="Counter Strike 2">
+          <span>Counter Strike 2</span>
+        </div>
+
+        <div class="game-item" data-game-key="PUBG">
+          <img src="img/mini_banner2.png" alt="PUBG: BATTLEGROUNDS">
+          <span>PUBG: BATTLEGROUNDS</span>
+        </div>
+
+        <div class="game-item" data-game-key="MARVEL">
+          <img src="img/mini_banner3.png" alt="Marvel Rivals">
+          <span>Marvel Rivals</span>
+        </div>
+
+        <div class="game-item" data-game-key="DOTA">
+          <img src="img/mini_banner4.png" alt="Dota 2">
+          <span>Dota 2</span>
+        </div>
+
+        <div class="game-item" data-game-key="Umamusume">
+          <img src="img/mini_banner5.png" alt="Umamusume: Pretty Derby">
+          <span>Umamusume: Pretty Derby</span>
+        </div>
+      </aside>
+    </section>
+
+
+    <!---------------------------- END OF HEADER DETAIL ---------------------------->
+
+
+
+
+    <!-- Container for the page dots -->
+
+
+    <div class="mgg">
+      <section class="section-container">
+        <div class="section-header">
+          <h2>Discover Something News ></h2>
+          <div class="carousel-controls">
+            <button class="control-btn prev-btn1">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+              </svg>
+            </button>
+            <button class="control-btn next-btn1">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="carousel-container">
+          <div id="carousel-track1" class="carousel-track">
+
+            <!-- first page -->
+
+            <div class="game-card new-item">
+              <img src="assest/wukong.jpg" alt="Black Myth Wukong">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Black Myth Wukong</h3>
+                <div class="price">THB 1,799.00 </div>
+              </div>
+            </div>
+            <div class="game-card new-item">
+              <img src="assest/tf2.jpg" alt="Team Fortress 2">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Team Fortress 2</h3>
+                <div class="price">Free</div>
+              </div>
+            </div>
+            <div class="game-card new-item">
+              <img src="assest/repo.jpg" alt="REPO">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>R.E.P.O</h3>
+                <div class="price"> THB 220.00 </div>
+              </div>
+            </div>
+            <div class="game-card new-item">
+              <img src="assest/peak.jpg" alt="PEAK">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>PEAK</h3>
+                <div class="price"> THB 159.00 </div>
+              </div>
+            </div>
+            <div class="game-card new-item">
+              <img src="assest/dmc5.jpg" alt="Devil May Cry 5">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Devil May Cry 5</h3>
+                <div class="price"> THB 540.00 </div>
+              </div>
+            </div>
+            <div class="game-card new-item">
+              <img src="assest/spider.jpg" alt="Spider-Man 2">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Spider-Man 2</h3>
+                <div class="price"> THB 1,690.00 </div>
+              </div>
+            </div>
+
+            <!-- second page -->
+
+            <div class="game-card new-item">
+              <img src="assest/godofwar.jpg" alt="God of War Ragnarök">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>God of War Ragnarök</h3>
+                <div class="price"> THB 1,690.00 </div>
+              </div>
+            </div>
+            <div class="game-card new-item">
+              <img src="assest/myhero.jpg" alt="MY HERO ULTRA RUMBLE">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>MY HERO ULTRA RUMBLE</h3>
+                <div class="price">Free</div>
+              </div>
+            </div>
+            <div class="game-card new-item">
+              <img src="assest/gta.png" alt="Grand Thef Auto Five">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Grand Thef Auto Five</h3>
+                <div class="price"> THB 959.00 </div>
+              </div>
+            </div>
+            <div class="game-card new-item">
+              <img src="assest/cs2.jpg" alt="Counter-Strike 2">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Counter-Strike 2</h3>
+                <div class="price"> Fre </div>
+              </div>
+            </div>
+            <div class="game-card new-item">
+              <img src="assest/apex.jpg" alt="Apex Legends">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Apex Legends™</h3>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card new-item">
+              <img src="assest/33.png" alt="Clair Obscur: Expedition 33">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Clair Obscur: Expedition 33</h3>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+
+            <!-- third page -->
+
+            <div class="game-card new-item">
+              <img src="assest/k3.png" alt="Killing Floor 3">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Killing Floor 3</h3>
+                <div class="price"> THB 719.00 </div>
+              </div>
+            </div>
+            <div class="game-card new-item">
+              <img src="assest/elden.jpg" alt="ELDEN RING">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>ELDEN RING</h3>
+                <div class="price"> THB 1,790.00 </div>
+              </div>
+            </div>
+            <div class="game-card new-item">
+              <img src="assest/re6.jpg" alt="Resident Evil 6">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Resident Evil 6</h3>
+                <div class="price"> THB 540.00</div>
+              </div>
+            </div>
+            <div class="game-card new-item">
+              <img src="assest/tforest.jpg" alt="The Forest">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>The Forest</h3>
+                <div class="price"> THB 289.00 </div>
+              </div>
+            </div>
+            <div class="game-card new-item">
+              <img src="assest/monh.jpg" alt="Monster Hunter World">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Monster Hunter World</h3>
+                <div class="price"> THB 810.00 </div>
+              </div>
+            </div>
+            <div class="game-card new-item">
+              <img src="assest/fxv.jpg" alt="Final Fantasy XV">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Final Fantasy XV</h3>
+                <div class="price"> THB 1,869.00 </div>
+              </div>
+            </div>
+
+            <!-- fouth page -->
+
+            <div class="game-card new-item">
+              <img src="assest/sekiro.jpg" alt="Sekiro">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Sekiro™: Shadows Die Twice</h3>
+                <div class="price"> THB 2,099.00 </div>
+              </div>
+            </div>
+            <div class="game-card new-item">
+              <img src="assest/re4.jpg" alt="Resident Evil 4 (2005)">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Resident Evil 4</h3>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card new-item">
+              <img src="assest/tlof.jpg" alt="The Last of Us™ Part I ">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>The Last of Us™ Part I</h3>
+                <div class="price"> THB 1,690.00 </div>
+              </div>
+            </div>
+            <div class="game-card new-item">
+              <img src="assest/devour.jpg" alt="DEVOUR">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>DEVOUR</h3>
+                <div class="price"> THB 220.00 </div>
+              </div>
+            </div>
+            <div class="game-card new-item">
+              <img src="assest/re3.jpg" alt="Resident Evil 3">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Resident Evil 3™</h3>
+                <div class="price"> THB 1,090.00 </div>
+              </div>
+            </div>
+            <div class="game-card new-item">
+              <img src="assest/diablo.jpg" alt="Diablo IV">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Diablo IV</h3>
+                <div class="price"> THB 1,749.00 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content">
+        <div class="slideshow-container">
+          <div class="slides-wrapper">
+            <div class="game-suggest">
+              <img src="assest/dbd.jpg" alt="Game 7">
+              <button class="hover-btn">+</button>
+              <h3>Dead By Daylight</h3>
+              <div class="describe">Rick Grimes & Michonne: The Walking Dead's Power Couple Enters Dead by Daylight
+              </div>
+              <a class="see-in-shop-btn" href="#" target="_blank">
+                <div class="price">See In Shop</div>
+                <svg style="vertical-align: middle; margin-left: 4px;" width="16" height="16" viewBox="0 0 24 24"
+                  fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+              </a>
+            </div>
+            <div class="game-suggest">
+              <img src="assest/farcry5.jpg" alt="Game 8">
+              <button class="hover-btn">+</button>
+              <h3>Far Cry® 5</h3>
+              <div class="describe">Welcome to Hope County, Montana, the land of the free and the brave.</div>
+              <a class="see-in-shop-btn" href="#" target="_blank">
+                <div class="price">See In Shop</div>
+                <svg style="vertical-align: middle; margin-left: 4px;" width="16" height="16" viewBox="0 0 24 24"
+                  fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+              </a>
+            </div>
+            <div class="game-suggest">
+              <img src="assest/ov2.jpg" alt="Game 9">
+              <button class="hover-btn">+</button>
+              <h3>Overcooked! 2</h3>
+              <div class="describe">Assemble your team of chefs in classic couch co-op or online play for up to four
+                players
+              </div>
+              <a class="see-in-shop-btn" href="#" target="_blank">
+                <div class="price">See In Shop</div>
+                <svg style="vertical-align: middle; margin-left: 4px;" width="16" height="16" viewBox="0 0 24 24"
+                  fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="slideshow-dots"></div>
+      </section>
+
+      <section class="section-container">
+        <div class="section-header">
+          <h2>Steam Saving Spotlight ></h2>
+          <div class="carousel-controls">
+            <button class="control-btn prev-btn2">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+              </svg>
+            </button>
+            <button class="control-btn next-btn2">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="carousel-container">
+          <div id="carousel-track2" class="carousel-track">
+
+            <!-- first page -->
+
+            <div class="game-card saving-item">
+              <img src="assest/re0.jpg" alt="Resident Evil 0 ">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Resident Evil 0</h3>
+                <span class="discount">-75%</span>
+                <div class="stats-desc"> <span class="strike">THB 540.00*</span> THB 135.00</div>
+              </div>
+            </div>
+            <div class="game-card saving-item">
+              <img src="assest/wagotabi.jpg" alt="Wagotabi">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Wagotabi</h3>
+                <span class="discount">-10%</span>
+                <div class="stats-desc"> <span class="strike">THB 220.00*</span> THB 198.00</div>
+              </div>
+            </div>
+            <div class="game-card saving-item">
+              <img src="assest/abyssus.jpg" alt="Abyssus">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Abyssus</h3>
+                <span class="discount">-15%</span>
+                <div class="stats-desc"> <span class="strike">THB 495.00*</span> THB 420.75</div>
+              </div>
+            </div>
+            <div class="game-card saving-item">
+              <img src="assest/dawn.jpg" alt="Warhammer40,000">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Warhammer40,000</h3>
+                <span class="discount">-10%</span>
+                <div class="stats-desc"> <span class="strike">THB 599.00*</span> THB 539.10</div>
+              </div>
+            </div>
+            <div class="game-card saving-item">
+              <img src="assest/Cold.jpg" alt="Cold Fear">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Cold Fear</h3>
+                <span class="discount">-80%</span>
+                <div class="stats-desc"> <span class="strike">THB 136.00*</span> THB 26.00</div>
+              </div>
+            </div>
+            <div class="game-card saving-item">
+              <img src="assest/age.jpg" alt="Age of Mythology: Retold">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Age of Mythology: Retold</h3>
+                <span class="discount">-50%</span>
+                <div class="stats-desc"> <span class="strike">THB 990.00*</span> THB 495.00</div>
+              </div>
+            </div>
+
+            <!-- second page -->
+
+            <div class="game-card saving-item">
+              <img src="assest/lost.jpg" alt="Lost Records: Bloom & Rage">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Lost Records: Bloom & Rage</h3>
+                <span class="discount">-33%</span>
+                <div class="stats-desc"> <span class="strike">THB 1,233.00*</span> THB 826.11</div>
+              </div>
+            </div>
+            <div class="game-card saving-item">
+              <img src="assest/se.jpg" alt="Sephiria">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Sephiria</h3>
+                <span class="discount">-15%</span>
+                <div class="stats-desc"> <span class="strike">THB 267.75*</span> THB 315.00</div>
+              </div>
+            </div>
+            <div class="game-card saving-item">
+              <img src="assest/pain.jpg" alt="The Painscreek Killings">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>The Painscreek Killings</h3>
+                <span class="discount">-75%</span>
+                <div class="stats-desc"> <span class="strike">THB 289.00*</span> THB 72.25</div>
+              </div>
+            </div>
+            <div class="game-card saving-item">
+              <img src="assest/sleep.jpg" alt="Sleeping Dogs: Definitive Edition">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Sleeping Dogs: Definitive Edition</h3>
+                <span class="discount">-85%</span>
+                <div class="stats-desc"> <span class="strike">THB 559.00*</span> THB 83.85</div>
+              </div>
+            </div>
+            <div class="game-card saving-item">
+              <img src="assest/far6.jpg" alt="Far Cry® 6">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Far Cry® 6™</h3>
+                <span class="discount">-80%</span>
+                <div class="stats-desc"> <span class="strike">THB 1,600.00*</span> THB 320.00</div>
+              </div>
+            </div>
+            <div class="game-card saving-item">
+              <img src="assest/sig.jpg" alt="SIGNALIS">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>SIGNALIS</h3>
+                <span class="discount">-30%</span>
+                <div class="stats-desc"> <span class="strike">THB 289*</span> THB 202.30</div>
+              </div>
+            </div>
+
+            <!-- third page -->
+
+            <div class="game-card saving-item">
+              <img src="assest/coral.png" alt="Coral Island">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Coral Island</h3>
+                <span class="discount">-33%</span>
+                <div class="stats-desc"> <span class="strike">THB 580.00*</span> THB 388.60</div>
+              </div>
+            </div>
+            <div class="game-card saving-item">
+              <img src="assest/ai.jpg" alt="AI LIMIT">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>AI LIMIT</h3>
+                <span class="discount">-20%</span>
+                <div class="stats-desc"> <span class="strike">THB 750.00*</span> THB 600</div>
+              </div>
+            </div>
+            <div class="game-card saving-item">
+              <img src="assest/nord.jpg" alt="Nordhold">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Nordhold</h3>
+                <span class="discount">-30%</span>
+                <div class="stats-desc"> <span class="strike">THB 390.00*</span> THB 273.00</div>
+              </div>
+            </div>
+            <div class="game-card saving-item">
+              <img src="assest/drop.jpg" alt="Drop Duchy">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Drop Duchy</h3>
+                <span class="discount">-20%</span>
+                <div class="stats-desc"> <span class="strike">THB 315.00*</span> THB 252</div>
+              </div>
+            </div>
+            <div class="game-card saving-item">
+              <img src="assest/mon.jpg" alt="Buy Monster Hunter Rise + Sunbreak">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Buy Monster Hunter Rise + Sunbreak</h3>
+                <span class="discount">-60%</span>
+                <div class="stats-desc"> <span class="strike">THB 1,590*</span> THB 397.50</div>
+              </div>
+            </div>
+            <div class="game-card saving-item">
+              <img src="assest/bat.png" alt="Batman - The Telltale Series">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>FBatman - The Telltale Series</h3>
+                <span class="discount">-50%</span>
+                <div class="stats-desc"> <span class="strike">THB 299.00*</span> THB 149.50</div>
+              </div>
+            </div>
+
+            <!-- fouth page -->
+
+            <div class="game-card saving-item">
+              <img src="assest/Spirit.jpg" alt="Spirit of the North 2">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Spirit of the North 2</h3>
+                <span class="discount">-25%</span>
+                <div class="stats-desc"> <span class="strike">THB 590.00*</span> THB 422.50</div>
+              </div>
+            </div>
+            <div class="game-card saving-item">
+              <img src="assest/Stray.jpg" alt="Stray Gods: The Roleplaying Musical">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Stray Gods: The Roleplaying Musical</h3>
+                <span class="discount">-40%</span>
+                <div class="stats-desc"> <span class="strike">THB 590.00*</span> THB 354.00</div>
+              </div>
+            </div>
+            <div class="game-card saving-item">
+              <img src="assest/re8.png" alt="Resident Evil Village ">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Resident Evil Village</h3>
+                <span class="discount">-75%</span>
+                <div class="stats-desc"> <span class="strike">THB 1,090.00*</span> THB 272.50</div>
+              </div>
+            </div>
+            <div class="game-card saving-item">
+              <img src="assest/Street.jpg" alt="Street Fighter™ 6">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Street Fighter™ 6</h3>
+                <span class="discount">-25%</span>
+                <div class="stats-desc"> <span class="strike">THB 1,130.00*</span> THB 847.50</div>
+              </div>
+            </div>
+            <div class="game-card saving-item">
+              <img src="assest/sabu.png" alt="Subnautica">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Subnautica</h3>
+                <span class="discount">-75%</span>
+                <div class="stats-desc"> <span class="strike">THB 856.00*</span> THB 214.00</div>
+              </div>
+            </div>
+            <div class="game-card saving-item">
+              <img src="assest/Fou.jpg" alt="Foundation">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Foundation</h3>
+                <span class="discount">-30%</span>
+                <div class="stats-desc"> <span class="strike">THB 680.00*</span> THB 476.00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content">
+        <div class="slideshow-container">
+          <div class="slides-wrapper">
+            <div class="game-suggest">
+              <img src="assest/naruto4.jpg" alt="Game 7">
+              <button class="hover-btn">+</button>
+              <h3>NARUTO SHIPPUDEN: Ultimate Ninja STORM 4</h3>
+              <div class="describe">Take advantage of the totally revamped battle system and prepare to dive into the
+                most epic
+                fights.</div>
+              <div class="stats-desc"><span class="discount">-10%</span> <span class="strike">THB 590.00*</span> THB
+                580.00
+              </div>
+            </div>
+            <div class="game-suggest">
+              <img src="assest/dragon.jpg" alt="Game 8">
+              <button class="hover-btn">+</button>
+              <h3>DRAGON BALL Z: KAKAROT</h3>
+              <div class="describe">Enjoy the story of DRAGON BALL Z, from exciting scenes to numerous mini-side quests
+                within
+                the game.</div>
+              <div class="stats-desc"><span class="discount">-15%</span> <span class="strike">THB 590.00*</span> THB
+                575.00
+              </div>
+            </div>
+            <div class="game-suggest">
+              <img src="assest/aot.jpg" alt="Game 9">
+              <button class="hover-btn">+</button>
+              <h3>Attack on Titans</h3>
+              <div class="describe">The story from the anime, with a few original twists, is yours to experience!
+              </div>
+              <a class="see-in-shop-btn" href="#" target="_blank">
+                <div class="price">See In Shop</div>
+                <svg style="vertical-align: middle; margin-left: 4px;" width="16" height="16" viewBox="0 0 24 24"
+                  fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="slideshow-dots"></div>
+      </section>
+
+      <!-- //game free -->
+
+      <section class="section-container">
+        <div class="section-header">
+          <h2>Top New Releases ></h2>
+          <div class="carousel-controls">
+            <button class="control-btn prev-btn3">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+              </svg>
+            </button>
+            <button class="control-btn next-btn3">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="carousel-container">
+          <div id="carousel-track3" class="carousel-track">
+
+            <!-- first page -->
+
+            <div class="game-card releases-item">
+              <img src="assest/bf6.png" alt="battlefield 6">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>battlefield 6</h3>
+                <div class="price">THB 1,990.00 </div>
+              </div>
+            </div>
+            <div class="game-card releases-item">
+              <img src="assest/sup.jpg" alt="SUPERVIVE">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>SUPERVIVE</h3>
+                <div class="price">Free</div>
+              </div>
+            </div>
+            <div class="game-card releases-item">
+              <img src="assest/dly.jpg" alt="Dying Light The Beast">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Dying Light The Beast</h3>
+                <div class="price"> THB 1,799.00 </div>
+              </div>
+            </div>
+            <div class="game-card releases-item">
+              <img src="assest/bor.jpg" alt="Borderlands®4">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Borderlands®4</h3>
+                <div class="price"> THB 1,790.00 </div>
+              </div>
+            </div>
+            <div class="game-card releases-item">
+              <img src="assest/sih.jpg" alt="SILEN HILL f">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>SILEN HILL f</h3>
+                <div class="price"> THB 2,113.00 </div>
+              </div>
+            </div>
+            <div class="game-card releases-item">
+              <img src="assest/term.jpg" alt="Terminull Brigade™">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Terminull Brigade™</h3>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+
+            <!-- second page -->
+
+            <div class="game-card releases-item">
+              <img src="assest/off.jpg" alt="OFF">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>OFF</h3>
+                <div class="price"> THB 315.00 </div>
+              </div>
+            </div>
+            <div class="game-card releases-item">
+              <img src="assest/demon.png" alt="Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Demon Slayer -Kimetsu no Yaiba 2</h3>
+                <div class="price">Free</div>
+              </div>
+            </div>
+            <div class="game-card releases-item">
+              <img src="assest/death2.jpg" alt="Grand Thef Auto Five">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Death Standing 2</h3>
+                <div class="price"> THB 1,970.00 </div>
+              </div>
+            </div>
+            <div class="game-card releases-item">
+              <img src="assest/cs2.jpg" alt="Counter-Strike 2">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Counter-Strike 2</h3>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card releases-item">
+              <img src="https://tinyurl.com/3pdbyn28" alt="Apex Legends">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Apex Legends™</h3>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card releases-item">
+              <img src="assest/abyssus.jpg" alt="Clair Obscur: Expedition 33">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Abyssus</h3>
+                <div class="price"> THB 240.00 </div>
+              </div>
+            </div>
+
+            <!-- third page -->
+
+            <div class="game-card releases-item">
+              <img src="assest/re4.jpg" alt="Killing Floor 3">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Resident Evil 4</h3>
+                <div class="price"> THB 2,100.00 </div>
+              </div>
+            </div>
+            <div class="game-card releases-item">
+              <img src="assest/elden.jpg" alt="ELDEN RING">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>ELDEN RING</h3>
+                <div class="price"> THB 1,790.00 </div>
+              </div>
+            </div>
+            <div class="game-card releases-item">
+              <img src="assest/re6.jpg" alt="Resident Evil 6">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Resident Evil 6</h3>
+                <div class="price"> THB 540.00 </div>
+              </div>
+            </div>
+            <div class="game-card releases-item">
+              <img src="assest/tforest.jpg" alt="The Forest">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>The Forest</h3>
+                <div class="price"> THB 289.00 </div>
+              </div>
+            </div>
+            <div class="game-card releases-item">
+              <img src="assest/monh.jpg" alt="Monster Hunter World">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Monster Hunter World</h3>
+                <div class="price"> THB 810.00 </div>
+              </div>
+            </div>
+            <div class="game-card releases-item">
+              <img src="assest/fxv.jpg" alt="Final Fantasy XV">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Final Fantasy XV</h3>
+                <div class="price"> THB 1,869.00 </div>
+              </div>
+            </div>
+
+            <!-- fouth page -->
+
+            <div class="game-card releases-item">
+              <img src="assest/sekiro.jpg" alt="Sekiro">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Sekiro™: Shadows Die Twice</h3>
+                <div class="price"> THB 2,099.00</div>
+              </div>
+            </div>
+            <div class="game-card releases-item">
+              <img src="assest/delt.jpg" alt="Resident Evil 4 (2005)">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Delta Force</h3>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card releases-item">
+              <img src="assest/tlof.jpg" alt="The Last of Us™ Part I ">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>The Last of Us™ Part I</h3>
+                <div class="price"> THB 1,690.00 </div>
+              </div>
+            </div>
+            <div class="game-card releases-item">
+              <img src="assest/dmc5.jpg" alt="DEVOUR">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Devil May Cry 5</h3>
+                <div class="price"> THB 590.00</div>
+              </div>
+            </div>
+            <div class="game-card releases-item">
+              <img src="assest/re3.jpg" alt="Resident Evil 3">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Resident Evil 3™</h3>
+                <div class="price"> THB 1,090.00</div>
+              </div>
+            </div>
+            <div class="game-card releases-item">
+              <img src="assest/diablo.jpg" alt="Diablo IV">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Diablo IV</h3>
+                <div class="price"> THB 1,749.00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="content">
+        <div class="slideshow-container">
+          <div class="slides-wrapper">
+            <div class="game-suggest">
+              <img src="assest/fxvi.jpg" alt="Game 7">
+              <button class="hover-btn">+</button>
+              <h3>Final Fantasy XVII</h3>
+              <div class="describe">The first fully fledged Action RPG in the mainline Final Fantasy series. An epic
+                dark
+                fantasy world..</div>
+              <a class="see-in-shop-btn" href="#" target="_blank">
+                <div class="price">See In Shop</div>
+                <svg style="vertical-align: middle; margin-left: 4px;" width="16" height="16" viewBox="0 0 24 24"
+                  fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+              </a>
+            </div>
+            <div class="game-suggest">
+              <img src="assest/lit2.jpg" alt="Game 8">
+              <button class="hover-btn">+</button>
+              <h3>The Little Nightmare II</h3>
+              <div class="describe">A boy wakes up alone in the woods surrounded by the husks of burnt-out televisions.
+              </div>
+              <a class="see-in-shop-btn" href="#" target="_blank">
+                <div class="price">See In Shop</div>
+                <svg style="vertical-align: middle; margin-left: 4px;" width="16" height="16" viewBox="0 0 24 24"
+                  fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+              </a>
+            </div>
+            <div class="game-suggest">
+              <img src="assest/kdom.jpg" alt="Game 9">
+              <button class="hover-btn">+</button>
+              <h3>KINGDOM HEARTS 2.8</h3>
+              <div class="describe">KINGDOM HEARTS 0.2 Birth by Sleep - A fragmentary passage.</div>
+              <a class="see-in-shop-btn" href="#" target="_blank">
+                <div class="price">See In Shop</div>
+                <svg style="vertical-align: middle; margin-left: 4px;" width="16" height="16" viewBox="0 0 24 24"
+                  fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="slideshow-dots"></div>
+      </section>
+
+    </div>
+    </section>
+
+    <section class="slideshow-section mobile-only-content">
+      <div class="slideshow-container">
+        <div class="slides-wrapper">
+          <div class="stats-card">
+            <h2>Top Sellers &gt;</h2>
+            <div class="stats-list">
+              <div class="stats-item">
+                <img src="assest/pubg.png" alt="PUBG">
+                <div>
+                  <b>PUBG</b>
+                  <div class="stats-desc">Available 12/21/17</div>
+                  <div class="stats-price">Free</div>
+                </div>
+              </div>
+              <div class="stats-item">
+                <img src="assest/cs2.jpg" alt="Borderlands 4">
+                <div>
+                  <b>Counter-Strike 2</b>
+                  <div class="stats-desc">Available 8/22/12</div>
+                  <div class="stats-price">Free</div>
+                </div>
+              </div>
+              <div class="stats-item">
+                <img src="assest/Fou.jpg" alt="Foundation">
+                <div>
+                  <b>Foundation</b>
+                  <div class="stats-desc">Available 31/6/25</div>
+                  <div class="stats-price">THB 680.00</div>
+                </div>
+              </div>
+              <div class="stats-item">
+                <img src="assest/coral.png" alt="Coral Island">
+                <div>
+                  <b>Coral Island</b>
+                  <div class="stats-desc">Available 12/6/25</div>
+                  <div class="stats-desc"><span class="discount">-33%</span> <span class="strike">THB 580.00*</span> THB
+                    486.00
+                  </div>
+                </div>
+              </div>
+              <div class="stats-item">
+                <img src="assest/umau.png" alt="umamusume pretty derby">
+                <div>
+                  <b>Gumamusume : Pretty Derby</b>
+                  <div class="stats-desc">Available 10/10/25</div>
+                  <div class="stats-price">Free</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="stats-card">
+            <h2>Most Played &gt;</h2>
+            <div class="stats-list">
+              <div class="stats-item">
+                <img src="assest/cs2.jpg" alt="cs2">
+                <div>
+                  <b>Counter-Strike 2</b>
+                  <div class="stats-desc">Free</div>
+                </div>
+              </div>
+              <div class="stats-item">
+                <img src="assest/dota2.jpg" alt="dota2">
+                <div>
+                  <b>DOTA2</b>
+                  <div class="stats-desc">Free</div>
+                </div>
+              </div>
+              <div class="stats-item">
+                <img src="assest/delt.jpg" alt="Delta Force">
+                <div>
+                  <b>Delta Force</b>
+                  <div class="stats-desc">Free</div>
+                </div>
+              </div>
+              <div class="stats-item">
+                <img src="assest/valo.jpg" alt="VALORANT">
+                <div>
+                  <b>VALORANT</b>
+                  <div class="stats-desc">Free</div>
+                </div>
+              </div>
+              <div class="stats-item">
+                <img src="assest/apex.jpg" alt="apex legends">
+                <div>
+                  <b>Apex Legends</b>
+                  <div class="stats-desc">Free</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="stats-card">
+            <h2>Top Upcoming Wishlist &gt;</h2>
+            <div class="stats-list">
+              <div class="stats-item">
+                <img src="assest/dly.jpg" alt="Daylight The Beast">
+                <div>
+                  <b>Daylight The Beast"</b>
+                  <div class="stats-desc">Available 09/19/25</div>
+                  <div class="stats-price">THB 1,799.00</div>
+                </div>
+              </div>
+              <div class="stats-item">
+                <img src="assest/Fou.jpg" alt="Foundation">
+                <div>
+                  <b>Foundation</b>
+                  <div class="stats-desc">Available 31/6/25</div>
+                  <div class="stats-price">THB 680.00</div>
+                </div>
+              </div>
+              <div class="stats-item">
+                <img src="assest/bf6.png" alt="Battlefield 6">
+                <div>
+                  <b>Battlefield 6</b>
+                  <div class="stats-desc">Available 10/8/25</div>
+                  <div class="stats-price">THB 1,999</div>
+                </div>
+              </div>
+              <div class="stats-item">
+                <img src="assest/knight.jpg" alt="peak">
+                <div>
+                  <b>Knightica</b>
+                  <div class="stats-desc">Coming Soon</div>
+                </div>
+              </div>
+              <div class="stats-item">
+                <img src="assest/re9.jpg" alt="re9">
+                <div>
+                  <b>Resident Evil Requiem</b>
+                  <div class="stats-desc">Coming Soon</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slideshow-dots"></div>
+    </section>
+
+    <section class="game-stats">
+      <div class="stats-column">
+        <h2>Top Sellers &gt;</h2>
+        <div class="stats-list">
+          <div class="stats-item">
+            <div class="stats-img-wrap">
+              <img src="assest/pubg.png" alt="">
+              <button class="add-btn">+</button>
+            </div>
+            <div>
+              <b>PUBG</b>
+              <div class="stats-price">Free</div>
+            </div>
+          </div>
+
+          <div class="stats-item">
+            <div class="stats-img-wrap">
+              <img src="assest/demon2.jpg" alt="">
+              <button class="add-btn">+</button>
+            </div>
+            <div>
+              <b>Demon Slayer 2</b>
+              <div>
+                <span class="discount">-25%</span>
+                <span class="strike">THB 1,790.00*</span>
+                THB 1,342.50
+              </div>
+            </div>
+          </div>
+          <div class="stats-item">
+            <div class="stats-img-wrap">
+              <img src="assest/foot.jpg" alt="">
+              <button class="add-btn">+</button>
+            </div>
+            <div>
+              <b>Football Manager 26</b>
+              <div>
+                <span class="discount">-10%</span>
+                <span class="strike">THB 1,790.00*</span>
+                THB 1,611.00
+              </div>
+            </div>
+          </div>
+          <div class="stats-item">
+            <div class="stats-img-wrap">
+              <img src="assest/no.jpg" alt="">
+              <button class="add-btn">+</button>
+            </div>
+            <div>
+              <b>No i'm not a Human</b>
+              <div>
+                <span class="discount">-10%</span>
+                <span class="strike">THB 315.00*</span>
+                THB 283.50
+              </div>
+            </div>
+          </div>
+          <div class="stats-item">
+            <div class="stats-img-wrap">
+              <img src="assest/hollow.jpg" alt="">
+              <button class="add-btn">+</button>
+            </div>
+            <div>
+              <b>Hollown Knight: Slicksong</b>
+
+              <div class="stats-price">THB 400.00</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="stats-column">
+        <h2>Most Played &gt;</h2>
+        <div class="stats-list">
+          <div class="stats-item">
+            <div class="stats-img-wrap">
+              <img src="assest/dota.jpg" alt="">
+              <button class="add-btn">+</button>
+            </div>
+            <div>
+              <b>DOTA 2</b>
+              <div class="stats-price">Free</div>
+            </div>
+          </div>
+          <div class="stats-item">
+            <div class="stats-img-wrap">
+              <img src="assest/hollow.jpg" alt="">
+              <button class="add-btn">+</button>
+            </div>
+            <div>
+              <b>Hollown Knight: Slicksong</b>
+
+              <div class="stats-price">THB 400.00</div>
+            </div>
+          </div>
+          <div class="stats-item">
+            <div class="stats-img-wrap">
+              <img src="assest/pubg.png" alt="">
+              <button class="add-btn">+</button>
+            </div>
+            <div>
+              <b>PUBG</b>
+              <div class="stats-price">Free</div>
+            </div>
+          </div>
+          <div class="stats-item">
+            <div class="stats-img-wrap">
+              <img src="assest/cs2.jpg" alt="">
+              <button class="add-btn">+</button>
+            </div>
+            <div>
+              <b>Counter-Strike2</b>
+              <div class="stats-price">Free</div>
+            </div>
+          </div>
+          <div class="stats-item">
+            <div class="stats-img-wrap">
+              <img src="assest/bor.jpg" alt="">
+              <button class="add-btn">+</button>
+            </div>
+            <div>
+              <b>Borderlands®4</b>
+              <div class="stats-price">THB 1,790.00</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="stats-column">
+        <h2>Top Upcoming Wishlisted &gt;</h2>
+        <div class="stats-list">
+          <div class="stats-item">
+            <div class="stats-img-wrap">
+              <img src="assest/bf6.jpg" alt="Battlefield 6">
+              <button class="add-btn">+</button>
+
+            </div>
+            <div>
+              <b>Battlefield™ 6 Standard Edition</b>
+              <div class="stats-desc">Available 10/10/25</div>
+              <div class="stats-price">THB 1,999.00</div>
+            </div>
+          </div>
+          <div class="stats-item">
+            <div class="stats-img-wrap">
+              <img src="assest/re9.jpg" alt="">
+              <button class="add-btn">+</button>
+            </div>
+            <div>
+              <b>Resident Evil Requiem </b>
+              <div class="stats-price">Coming Soon</div>
+            </div>
+          </div>
+          <div class="stats-item">
+            <div class="stats-img-wrap">
+              <img src="assest/dly.jpg" alt="Dying Light: The Beast">
+              <button class="add-btn">+</button>
+            </div>
+            <div>
+              <b>Dying Light: The Beast</b>
+              <div class="stats-desc">Available 09/18/25</div>
+              <div class="stats-price">THB 1,799.00</div>
+            </div>
+          </div>
+          <div class="stats-item">
+            <div class="stats-img-wrap">
+              <img src="assest/dlock.jpg" alt="">
+              <button class="add-btn">+</button>
+            </div>
+            <div>
+              <b>Deadlock</b>
+              <div class="stats-price">Coming Soon</div>
+            </div>
+          </div>
+          <div class="stats-item">
+            <div class="stats-img-wrap">
+              <img src="assest/ark2.jpg" alt="">
+              <button class="add-btn">+</button>
+            </div>
+            <div>
+              <b>ARK2</b>
+              <div class="stats-price">Coming Soon</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="slideshow-container">
+        <div class="slides-wrapper">
+          <div class="game-suggest">
+            <img src="assest/reb9.jpg" alt="Game 7">
+            <button class="hover-btn">+</button>
+            <h3>Resident Evil Requiem</h3>
+            <div class="describe">Resident Evil Requiem is the ninth title in the mainline Resident Evil series.</div>
+            <a class="see-in-shop-btn" href="#" target="_blank">
+              <div class="price">See In Shop</div>
+              <svg style="vertical-align: middle; margin-left: 4px;" width="16" height="16" viewBox="0 0 24 24"
+                fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                <polyline points="15 3 21 3 21 9" />
+                <line x1="10" y1="14" x2="21" y2="3" />
+              </svg>
+            </a>
+          </div>
+          <div class="game-suggest">
+            <img src="assest/kngb.png" alt="Game 8">
+            <button class="hover-btn">+</button>
+            <h3>Knightica</h3>
+            <div class="describe">Knightica is a turn-based roguelike auto-battler where you lead an army of powerful
+              units.
+            </div>
+            <a class="see-in-shop-btn" href="#" target="_blank">
+              <div class="price">See In Shop</div>
+              <svg style="vertical-align: middle; margin-left: 4px;" width="16" height="16" viewBox="0 0 24 24"
+                fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                <polyline points="15 3 21 3 21 9" />
+                <line x1="10" y1="14" x2="21" y2="3" />
+              </svg>
+            </a>
+          </div>
+          <div class="game-suggest">
+            <img src="assest/hwl.jpg" alt="Game 9">
+            <button class="hover-btn">+</button>
+            <h3>Hogwarts Leagacy</h3>
+            <div class="describe">Hogwarts Legacy is an open-world action RPG set in the world first introduced in the
+              Harry
+              Potter books.</div>
+            <a class="see-in-shop-btn" href="#" target="_blank">
+              <div class="price">See In Shop</div>
+              <svg style="vertical-align: middle; margin-left: 4px;" width="16" height="16" viewBox="0 0 24 24"
+                fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                <polyline points="15 3 21 3 21 9" />
+                <line x1="10" y1="14" x2="21" y2="3" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="slideshow-dots"></div>
+    </section>
+
+    <div class="mgg">
+      <section class="section-container">
+        <div class="section-header">
+          <h2>Trending ></h2>
+          <div class="carousel-controls">
+            <button class="control-btn prev-btn4">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+              </svg>
+            </button>
+            <button class="control-btn next-btn4">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="carousel-container">
+          <div id="carousel-track4" class="carousel-track">
+
+            <!-- first page -->
+
+            <div class="game-card trending-item">
+              <img src="assest/k3.png" alt="Black Myth Wukong">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Killing Floor 3</h3>
+                <button class="hover-btn">+</button>
+                <div class="price">THB 1,799.00 </div>
+              </div>
+            </div>
+            <div class="game-card trending-item">
+              <img src="assest/term.jpg" alt="Team Fortress 2">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Terminull</h3>
+                <button class="hover-btn">+</button>
+                <div class="price">Free</div>
+              </div>
+            </div>
+            <div class="game-card trending-item">
+              <img src="assest/dly.jpg" alt="REPO">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Dying Light The Beast</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,799.00 </div>
+              </div>
+            </div>
+            <div class="game-card trending-item">
+              <img src="assest/bor.jpg" alt="PEAK">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Borderlands®4</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,790.00 </div>
+              </div>
+            </div>
+            <div class="game-card trending-item">
+              <img src="assest/dota2.jpg" alt="Devil May Cry 5">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>DOTA2</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card trending-item">
+              <img src="assest/coral.png" alt="Spider-Man 2">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Coral Island</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 580.00 </div>
+              </div>
+            </div>
+
+            <!-- second page -->
+
+            <div class="game-card trending-item">
+              <img src="assest/godofwar.jpg" alt="God of War Ragnarök">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>God of War Ragnarök</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,690 </div>
+              </div>
+            </div>
+            <div class="game-card trending-item">
+              <img src="assest/valo.jpg" alt="MY HERO ULTRA RUMBLE">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>VALORANT</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card trending-item">
+              <img src="assest/knight.jpg" alt="Grand Thef Auto Five">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Knightica</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> coming soon </div>
+              </div>
+            </div>
+            <div class="game-card trending-item">
+              <img src="assest/cs2.jpg" alt="Counter-Strike 2">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Counter-Strike 2</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card trending-item">
+              <img src="assest/delt.jpg" alt="Apex Legends">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Delta Force</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card trending-item">
+              <img src="assest/re8.png" alt="re">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Residet Evil Village</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> 790.00 </div>
+              </div>
+            </div>
+
+            <!-- third page -->
+
+            <div class="game-card trending-item">
+              <img src="assest/naruto4n.png" alt="Killing Floor 3">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Naruto Ninja Storm 4</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 340.00</div>
+              </div>
+            </div>
+            <div class="game-card trending-item">
+              <img src="assest/elden.jpg" alt="ELDEN RING">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>ELDEN RING</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,790 </div>
+              </div>
+            </div>
+            <div class="game-card trending-item">
+              <img src="assest/re6.jpg" alt="Resident Evil 6">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Resident Evil 6</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 540 </div>
+              </div>
+            </div>
+            <div class="game-card trending-item">
+              <img src="assest/sig.jpg" alt="The Forest">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>SIGNALS</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 289.00 </div>
+              </div>
+            </div>
+            <div class="game-card trending-item">
+              <img src="assest/death1.jpg" alt="Monster Hunter World">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Death Standig</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,200.00 </div>
+              </div>
+            </div>
+            <div class="game-card trending-item">
+              <img src="assest/fxv.jpg" alt="Final Fantasy XV">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Final Fantasy XV</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,869 </div>
+              </div>
+            </div>
+
+            <!-- fouth page -->
+
+            <div class="game-card trending-item">
+              <img src="assest/sekiro.jpg" alt="Sekiro">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Sekiro™: Shadows Die Twice</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 2,099</div>
+              </div>
+            </div>
+            <div class="game-card trending-item">
+              <img src="assest/re4.jpg" alt="Resident Evil 4 (2005)">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Resident Evil 4</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card trending-item">
+              <img src="assest/tlof.jpg" alt="The Last of Us™ Part I ">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>The Last of Us™ Part I</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,690 </div>
+              </div>
+            </div>
+            <div class="game-card trending-item">
+              <img src="assest/devour.jpg" alt="DEVOUR">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>DEVOUR</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 220</div>
+              </div>
+            </div>
+            <div class="game-card trending-item">
+              <img src="assest/re3.jpg" alt="Resident Evil 3">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Resident Evil 3™</h3>
+                <div class="price"> THB 1,090</div>
+                <button class="hover-btn">+</button>
+              </div>
+            </div>
+            <div class="game-card trending-item">
+              <img src="assest/death2.jpg" alt="Diablo IV">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Dead Standing 2</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,790.00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slideshow-section mobile-only-content">
+        <div class="slideshow-container">
+          <div class="slides-wrapper">
+            <div class="stats-card">
+              <h2>Top Sellers &gt;</h2>
+              <div class="stats-list">
+                <div class="stats-item">
+                  <img src="assest/pubg.png" alt="PUBG">
+                  <div>
+                    <b>PUBG</b>
+                    <div class="stats-desc">Available 12/21/17</div>
+                    <div class="stats-price">Free</div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/cs2.jpg" alt="Borderlands 4">
+                  <div>
+                    <b>Counter-Strike 2</b>
+                    <div class="stats-desc">Available 8/22/12</div>
+                    <div class="stats-price">Free</div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/Fou.jpg" alt="Foundation">
+                  <div>
+                    <b>Foundation</b>
+                    <div class="stats-desc">Available 31/6/25</div>
+                    <div class="stats-price">THB 680.00</div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/coral.png" alt="Coral Island">
+                  <div>
+                    <b>Coral Island</b>
+                    <div class="stats-desc">Available 12/6/25</div>
+                    <div class="stats-desc"><span class="discount">-33%</span> <span class="strike">THB 580.00*</span>
+                      THB 486.00
+                    </div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/umau.png" alt="umamusume pretty derby">
+                  <div>
+                    <b>Gumamusume : Pretty Derby</b>
+                    <div class="stats-desc">Available 10/10/25</div>
+                    <div class="stats-price">Free</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="stats-card">
+              <h2>Most Played &gt;</h2>
+              <div class="stats-list">
+                <div class="stats-item">
+                  <img src="assest/cs2.jpg" alt="cs2">
+                  <div>
+                    <b>Counter-Strike 2</b>
+                    <div class="stats-desc">Free</div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/dota2.jpg" alt="dota2">
+                  <div>
+                    <b>DOTA2</b>
+                    <div class="stats-desc">Free</div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/delt.jpg" alt="Delta Force">
+                  <div>
+                    <b>Delta Force</b>
+                    <div class="stats-desc">Free</div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/valo.jpg" alt="VALORANT">
+                  <div>
+                    <b>VALORANT</b>
+                    <div class="stats-desc">Free</div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/apex.jpg" alt="apex legends">
+                  <div>
+                    <b>Apex Legends</b>
+                    <div class="stats-desc">Free</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="stats-card">
+              <h2>Top Upcoming Wishlist &gt;</h2>
+              <div class="stats-list">
+                <div class="stats-item">
+                  <img src="assest/dly.jpg" alt="Daylight The Beast">
+                  <div>
+                    <b>Daylight The Beast"</b>
+                    <div class="stats-desc">Available 09/19/25</div>
+                    <div class="stats-price">THB 1,799.00</div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/Fou.jpg" alt="Foundation">
+                  <div>
+                    <b>Foundation</b>
+                    <div class="stats-desc">Available 31/6/25</div>
+                    <div class="stats-price">THB 680.00</div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/bf6.png" alt="Battlefield 6">
+                  <div>
+                    <b>Battlefield 6</b>
+                    <div class="stats-desc">Available 10/8/25</div>
+                    <div class="stats-price">THB 1,999</div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/knight.jpg" alt="peak">
+                  <div>
+                    <b>Knightica</b>
+                    <div class="stats-desc">Coming Soon</div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/re9.jpg" alt="re9">
+                  <div>
+                    <b>Resident Evil Requiem</b>
+                    <div class="stats-desc">Coming Soon</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slideshow-dots"></div>
+      </section>
+
+      <section class="game-stats">
+        <div class="stats-column">
+          <h2>Top Sellers &gt;</h2>
+          <div class="stats-list">
+            <div class="stats-item">
+              <div class="stats-img-wrap">
+                <img src="assest/oolo.png" alt="">
+                <button class="add-btn">+</button>
+              </div>
+              <div>
+                <b>OOLO</b>
+                <div class="stats-price">THB 400.00</div>
+              </div>
+            </div>
+
+            <div class="stats-item">
+              <div class="stats-img-wrap">
+                <img src="assest/hollow.jpg" alt=" ">
+                <button class="add-btn">+</button>
+              </div>
+              <div>
+                <b>Hollow Knight Slivcksong</b>
+                <div>
+                  <div class="stats-price">THB 400.00</div>
+                </div>
+              </div>
+            </div>
+            <div class="stats-item">
+              <div class="stats-img-wrap">
+                <img src="assest/cyber.jpg" alt="Cyberpunk 2077">
+                <button class="add-btn">+</button>
+              </div>
+              <div>
+                <b>Cyberpunk 2077</b>
+                <div>
+                  <div class="stats-price">THB 899.00</div>
+                </div>
+              </div>
+            </div>
+            <div class="stats-item">
+              <div class="stats-img-wrap">
+                <img src="assest/demon2.jpg" alt="">
+                <button class="add-btn">+</button>
+              </div>
+              <div>
+                <b>Demon Slayer 2</b>
+                <div>
+                  <span class="discount">-25%</span>
+                  <span class="strike">THB 1,790.00*</span>
+                  THB 1,342.50
+                </div>
+              </div>
+            </div>
+            <div class="stats-item">
+              <div class="stats-img-wrap">
+                <img src="assest/arena.jpg" alt="">
+                <button class="add-btn">+</button>
+              </div>
+              <div>
+                <b>Arena Breakout</b>
+                <div class="stats-price">Free</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="stats-column">
+          <h2>Top Player Rated &gt;</h2>
+          <div class="stats-list">
+            <div class="stats-item">
+              <div class="stats-img-wrap">
+                <img src="assest/dota.jpg" alt="">
+                <button class="add-btn">+</button>
+              </div>
+              <div>
+                <b>DOTA 2</b>
+                <div class="stats-price">Free</div>
+              </div>
+            </div>
+            <div class="stats-item">
+              <div class="stats-img-wrap">
+                <img src="assest/hollow.jpg" alt="">
+                <button class="add-btn">+</button>
+              </div>
+              <div>
+                <b>Hollown Knight: Slicksong</b>
+
+                <div class="stats-price">THB 400.00</div>
+              </div>
+            </div>
+            <div class="stats-item">
+              <div class="stats-img-wrap">
+                <img src="assest/peaky.png" alt="">
+                <button class="add-btn">+</button>
+              </div>
+              <div>
+                <b>PEAK</b>
+                <div class="stats-price">Free</div>
+              </div>
+            </div>
+            <div class="stats-item">
+              <div class="stats-img-wrap">
+                <img src="assest/cs2.jpg" alt="">
+                <button class="add-btn">+</button>
+              </div>
+              <div>
+                <b>Counter-Strike2</b>
+                <div class="stats-price">Free</div>
+              </div>
+            </div>
+            <div class="stats-item">
+              <div class="stats-img-wrap">
+                <img src="assest/pubg.png" alt="">
+                <button class="add-btn">+</button>
+              </div>
+              <div>
+                <b>PUBG</b>
+                <div class="stats-price">Free </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="stats-column">
+          <div class="stats-column">
+            <h2>Coming Soon &gt;</h2>
+            <div class="stats-list">
+              <div class="stats-item">
+                <div class="stats-img-wrap">
+                  <img src="assest/bf6.jpg" alt="Battlefield 6">
+                  <button class="add-btn">+</button>
+
+                </div>
+                <div>
+                  <b>Battlefield™ 6 Standard Edition</b>
+                  <div class="stats-desc">Available 10/10/25</div>
+                  <div class="stats-price">THB 1,999.00</div>
+                </div>
+              </div>
+              <div class="stats-item">
+                <div class="stats-img-wrap">
+                  <img src="assest/ark2.jpg" alt="">
+                  <button class="add-btn">+</button>
+                </div>
+                <div>
+                  <b> ARK 2 </b>
+                  <div class="stats-price">Coming Soon</div>
+                </div>
+              </div>
+              <div class="stats-item">
+                <div class="stats-img-wrap">
+                  <img src="assest/dly.jpg" alt="Dying Light: The Beast">
+                  <button class="add-btn">+</button>
+                </div>
+                <div>
+                  <b>Dying Light: The Beast</b>
+                  <div class="stats-desc">Available 09/18/25</div>
+                  <div class="stats-price">THB 1,799.00</div>
+                </div>
+              </div>
+              <div class="stats-item">
+                <div class="stats-img-wrap">
+                  <img src="assest/dlock.jpg" alt="">
+                  <button class="add-btn">+</button>
+                </div>
+                <div>
+                  <b>Deadlock</b>
+                  <div class="stats-price">Coming Soon</div>
+                </div>
+              </div>
+              <div class="stats-item">
+                <div class="stats-img-wrap">
+                  <img src="assest/re9.jpg" alt="">
+                  <button class="add-btn">+</button>
+                </div>
+                <div>
+                  <b>Resident Evil Requiem</b>
+                  <div class="stats-price">Coming Soon</div>
+                </div>
+              </div>
+      </section>
+
+      <section class="content">
+        <div class="slideshow-container">
+          <div class="slides-wrapper">
+            <div class="game-suggest">
+              <img src="assest/coma.jpg" alt="Game 7">
+              <button class="hover-btn">+</button>
+              <h3>The Coma</h3>
+              <div class="describe">Good news, your school is about to explode. Bad news... You're trapped inside a
+                school
+                with a
+                murderer.</div>
+              <a class="see-in-shop-btn" href="#" target="_blank">
+                <div class="price">See In Shop</div>
+                <svg style="vertical-align: middle; margin-left: 4px;" width="16" height="16" viewBox="0 0 24 24"
+                  fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+              </a>
+            </div>
+            <div class="game-suggest">
+              <img src="assest/coma2.jpg" alt="Game 8">
+              <button class="hover-btn">+</button>
+              <h3>The coma 2</h3>
+              <div class="describe">Mina Park, a student at Sehwa High School, wakes up at night in her school. It's not
+                long
+                before she realizes something is wrong.</div>
+              <a class="see-in-shop-btn" href="#" target="_blank">
+                <div class="price">See In Shop</div>
+                <svg style="vertical-align: middle; margin-left: 4px;" width="16" height="16" viewBox="0 0 24 24"
+                  fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+              </a>
+            </div>
+            <div class="game-suggest">
+              <img src="assest/coma3.jpg" alt="Game 9">
+              <button class="hover-btn">+</button>
+              <h3>The Coma 2B</h3>
+              <div class="describe">Young-ho is finally able to escape the terrifying mirror dimension known as “The
+                Coma” and
+                return to his happy life at school.</div>
+              <a class="see-in-shop-btn" href="#" target="_blank">
+                <div class="price">See In Shop</div>
+                <svg style="vertical-align: middle; margin-left: 4px;" width="16" height="16" viewBox="0 0 24 24"
+                  fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="slideshow-dots"></div>
+      </section>
+
+      <section class="section-container">
+        <div class="section-header">
+          <h2>Featured ></h2>
+          <div class="carousel-controls">
+            <button class="control-btn prev-btn5">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+              </svg>
+            </button>
+            <button class="control-btn next-btn5">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="carousel-container">
+          <div id="carousel-track5" class="carousel-track">
+
+            <!-- first page -->
+
+            <div class="game-card featured-item">
+              <img src="assest/pubg.png" alt="Black Myth Wukong">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>PUBG</h3>
+                <button class="hover-btn">+</button>
+                <div class="price">Free </div>
+              </div>
+            </div>
+            <div class="game-card featured-item">
+              <img src="assest/elden.jpg" alt="Team Fortress 2">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>ELDEN RING</h3>
+                <button class="hover-btn">+</button>
+                <div class="price">1,790.00</div>
+              </div>
+            </div>
+            <div class="game-card featured-item">
+              <img src="assest/apex.jpg" alt="REPO">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Apex Leagend</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card featured-item">
+              <img src="assest/bor.jpg" alt="PEAK">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Borderlands®4</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,790.00 </div>
+              </div>
+            </div>
+            <div class="game-card featured-item">
+              <img src="assest/dota2.jpg" alt="Devil May Cry 5">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>DOTA2</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card featured-item">
+              <img src="assest/valo.jpg" alt="Spider-Man 2">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>VALORANT</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+
+            <!-- second page -->
+
+            <div class="game-card featured-item">
+              <img src="assest/godofwar.jpg" alt="God of War Ragnarök">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>God of War Ragnarök</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,690 </div>
+              </div>
+            </div>
+            <div class="game-card featured-item">
+              <img src="assest/k3.png" alt="HERO ULTRA RUMBLE">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Killing Flor 3</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card featured-item">
+              <img src="assest/knight.jpg" alt="Grand Thef Auto Five">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Knightica</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> coming soon </div>
+              </div>
+            </div>
+            <div class="game-card featured-item">
+              <img src="assest/cs2.jpg" alt="Counter-Strike 2">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Counter-Strike 2</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card featured-item">
+              <img src="assest/wukong.jpg" alt="Apex Legends">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Black Myth Wukong</h3>
+                <button class="hover-btn">+</button>
+                <div class="price">THB 1,990.00 </div>
+              </div>
+            </div>
+            <div class="game-card featured-item">
+              <img src="assest/re8.png" alt="re">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Residet Evil Village</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 790.00 </div>
+              </div>
+            </div>
+
+            <!-- third page -->
+
+            <div class="game-card featured-item">
+              <img src="assest/naruto4n.png" alt="Killing Floor 3">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Naruto Ninja Storm 4</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 340.00</div>
+              </div>
+            </div>
+            <div class="game-card featured-item">
+              <img src="assest/demon.png" alt="ELDEN RING">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Kimetsu no Yaiba 2</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,290.00 </div>
+              </div>
+            </div>
+            <div class="game-card featured-item">
+              <img src="assest/death2.jpg" alt="Resident Evil 6">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Death Standing 2</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,990.00</div>
+              </div>
+            </div>
+            <div class="game-card featured-item">
+              <img src="assest/sig.jpg" alt="The Forest">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>SIGNALS</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 289.00 </div>
+              </div>
+            </div>
+            <div class="game-card featured-item">
+              <img src="assest/death1.jpg" alt="Monster Hunter World">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Death Standig</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,200.00 </div>
+              </div>
+            </div>
+            <div class="game-card featured-item">
+              <img src="assest/coral.png" alt="Final Fantasy XV">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Coral Island</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 540.00</div>
+              </div>
+            </div>
+
+            <!-- fouth page -->
+
+            <div class="game-card featured-item">
+              <img src="assest/sekiro.jpg" alt="Sekiro">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Sekiro™: Shadows Die Twice</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 2,099</div>
+              </div>
+            </div>
+            <div class="game-card featured-item">
+              <img src="assest/re4.jpg" alt="Resident Evil 4 (2005)">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Resident Evil 4</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card featured-item">
+              <img src="assest/dly.jpg " alt="The Last of Us™ Part I ">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Dying Light The Beast</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,990.00 </div>
+              </div>
+            </div>
+            <div class="game-card featured-item">
+              <img src="assest/devour.jpg" alt="DEVOUR">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>DEVOUR</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 220</div>
+              </div>
+            </div>
+            <div class="game-card featured-item">
+              <img src="assest/re3.jpg" alt="Resident Evil 3">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Resident Evil 3™</h3>
+                <div class="price"> THB 1,090</div>
+                <button class="hover-btn">+</button>
+              </div>
+            </div>
+            <div class="game-card featured-item">
+              <img src="assest/repo.jpg" alt="Diablo IV">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>R.E.P.O</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 250.00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slideshow-section mobile-only-content">
+        <div class="slideshow-container">
+          <div class="slides-wrapper">
+            <div class="stats-card">
+              <h2>Top Sellers &gt;</h2>
+              <div class="stats-list">
+                <div class="stats-item">
+                  <img src="assest/dlcd.jpg" alt="">
+                  <div>
+                    <b>Devil May Cry 5 Delux Editon</b>
+                    <div class="stats-price">THB 890.00</div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/cs2.jpg" alt="Borderlands 4">
+                  <div>
+                    <b>Counter-Strike 2</b>
+                    <div class="stats-desc">Available 8/22/12</div>
+                    <div class="stats-price">Free</div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/Fou.jpg" alt="Foundation">
+                  <div>
+                    <b>Foundation</b>
+                    <div class="stats-desc">Available 31/6/25</div>
+                    <div class="stats-price">THB 680.00</div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/coral.png" alt="Coral Island">
+                  <div>
+                    <b>Coral Island</b>
+                    <div class="stats-desc">Available 12/6/25</div>
+                    <div class="stats-desc"><span class="discount">-33%</span> <span class="strike">THB 580.00*</span>
+                      THB 486.00
+                    </div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/umau.png" alt="umamusume pretty derby">
+                  <div>
+                    <b>Gumamusume : Pretty Derby</b>
+                    <div class="stats-desc">Available 10/10/25</div>
+                    <div class="stats-price">Free</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="stats-card">
+              <h2>Most Played &gt;</h2>
+              <div class="stats-list">
+                <div class="stats-item">
+                  <img src="assest/cs2.jpg" alt="cs2">
+                  <div>
+                    <b>Counter-Strike 2</b>
+                    <div class="stats-desc">Free</div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/dota2.jpg" alt="dota2">
+                  <div>
+                    <b>DOTA2</b>
+                    <div class="stats-desc">Free</div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/delt.jpg" alt="Delta Force">
+                  <div>
+                    <b>Delta Force</b>
+                    <div class="stats-desc">Free</div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/valo.jpg" alt="VALORANT">
+                  <div>
+                    <b>VALORANT</b>
+                    <div class="stats-desc">Free</div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/apex.jpg" alt="apex legends">
+                  <div>
+                    <b>Apex Legends</b>
+                    <div class="stats-desc">Free</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="stats-card">
+              <h2>Top Upcoming Wishlist &gt;</h2>
+              <div class="stats-list">
+                <div class="stats-item">
+                  <img src="assest/dly.jpg" alt="Daylight The Beast">
+                  <div>
+                    <b>Daylight The Beast"</b>
+                    <div class="stats-desc">Available 09/19/25</div>
+                    <div class="stats-price">THB 1,799.00</div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/Fou.jpg" alt="Foundation">
+                  <div>
+                    <b>Foundation</b>
+                    <div class="stats-desc">Available 31/6/25</div>
+                    <div class="stats-price">THB 680.00</div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/bf6.png" alt="Battlefield 6">
+                  <div>
+                    <b>Battlefield 6</b>
+                    <div class="stats-desc">Available 10/8/25</div>
+                    <div class="stats-price">THB 1,999</div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/knight.jpg" alt="peak">
+                  <div>
+                    <b>Knightica</b>
+                    <div class="stats-desc">Coming Soon</div>
+                  </div>
+                </div>
+                <div class="stats-item">
+                  <img src="assest/re9.jpg" alt="re9">
+                  <div>
+                    <b>Resident Evil Requiem</b>
+                    <div class="stats-desc">Coming Soon</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slideshow-dots"></div>
+      </section>
+
+      <section class="game-stats">
+        <div class="stats-column">
+          <h2>Top Add-Ons &gt;</h2>
+          <div class="stats-list">
+            <div class="stats-item">
+              <div class="stats-img-wrap">
+                <img src="assest/dlcd.jpg" alt="">
+                <button class="add-btn">+</button>
+              </div>
+              <div>
+                <b>Devil May Cry 5 Delux Editon </b>
+                <div class="stats-price">THB 890.00</div>
+              </div>
+            </div>
+
+            <div class="stats-item">
+              <div class="stats-img-wrap">
+                <img src="assest/hollow.jpg" alt=" ">
+                <button class="add-btn">+</button>
+              </div>
+              <div>
+                <b>Hollow Knight Slivcksong Soundtrack</b>
+                <div>
+                  <div class="stats-price">THB 270.00</div>
+                </div>
+              </div>
+            </div>
+            <div class="stats-item">
+              <div class="stats-img-wrap">
+                <img src="assest/cyber.jpg" alt="Cyberpunk 2077">
+                <button class="add-btn">+</button>
+              </div>
+              <div>
+                <b>Cyberpunk 2077: Phantom Liberty</b>
+                <div>
+                  <div class="stats-price">THB 899.00</div>
+                </div>
+              </div>
+            </div>
+            <div class="stats-item">
+              <div class="stats-img-wrap">
+                <img src="assest/god.jpg" alt="">
+                <button class="add-btn">+</button>
+              </div>
+              <div>
+                <b>God of War Ragnarök Digital Deluxe Edition</b>
+                <div>
+                  <div class="stats-price">THB 1,990.00</div>
+                </div>
+              </div>
+            </div>
+            <div class="stats-item">
+              <div class="stats-img-wrap">
+                <img src="assest/dd.jpg" alt="">
+                <button class="add-btn">+</button>
+              </div>
+              <div>
+                <b>Dead by Daylight x The Walking Dead</b>
+                <div class="stats-price">THB 280.00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="stats-column">
+          <h2>Top Free to Play &gt;</h2>
+          <div class="stats-list">
+            <div class="stats-item">
+              <div class="stats-img-wrap">
+                <img src="assest/dota.jpg" alt="">
+                <button class="add-btn">+</button>
+              </div>
+              <div>
+                <b>DOTA 2</b>
+                <div class="stats-price">Free</div>
+              </div>
+            </div>
+            <div class="stats-item">
+              <div class="stats-img-wrap">
+                <img src="assest/cs2.jpg" alt="">
+                <button class="add-btn">+</button>
+              </div>
+              <div>
+                <b>Counter-Strike2</b>
+
+                <div class="stats-price">Free</div>
+              </div>
+            </div>
+            <div class="stats-item">
+              <div class="stats-img-wrap">
+                <img src="assest/pubg.png" alt="">
+                <button class="add-btn">+</button>
+              </div>
+              <div>
+                <b>PUBG</b>
+                <div class="stats-price">Free</div>
+              </div>
+            </div>
+            <div class="stats-item">
+              <div class="stats-img-wrap">
+                <img src="assest/sum.jpg" alt="">
+                <button class="add-btn">+</button>
+              </div>
+              <div>
+                <b>Summoners War</b>
+                <div class="stats-price">Free</div>
+              </div>
+            </div>
+            <div class="stats-item">
+              <div class="stats-img-wrap">
+                <img src="assest/swo.jpg" alt="">
+                <button class="add-btn">+</button>
+              </div>
+              <div>
+                <b>Sword of Convllaria</b>
+                <div class="stats-price">Free</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="stats-column">
+          <div class="stats-column">
+            <h2>Top Demos &gt;</h2>
+            <div class="stats-list">
+              <div class="stats-item">
+                <div class="stats-img-wrap">
+                  <img src="assest/re4..jpg" alt="">
+                  <button class="add-btn">+</button>
+
+                </div>
+                <div>
+                  <b>Resident Evil 4</b>
+
+                  <div class="stats-price">THB 1,999.00</div>
+                </div>
+              </div>
+              <div class="stats-item">
+                <div class="stats-img-wrap">
+                  <img src="assest/re9.jpg" alt="">
+                  <button class="add-btn">+</button>
+                </div>
+                <div>
+                  <b>Resident Evil Requiem </b>
+                  <div class="stats-price">Coming Soon</div>
+                </div>
+              </div>
+              <div class="stats-item">
+                <div class="stats-img-wrap">
+                  <img src="assest/final.png" alt="Dying Light: The Beast">
+                  <button class="add-btn">+</button>
+                </div>
+                <div>
+                  <b>Final Fantasy XVI</b>
+
+                  <div class="stats-price">THB 1,690.00</div>
+                </div>
+              </div>
+              <div class="stats-item">
+                <div class="stats-img-wrap">
+                  <img src="assest/king3.png" alt="">
+                  <button class="add-btn">+</button>
+                </div>
+                <div>
+                  <b>Kingdom Hearth 3</b>
+                  <div class="stats-price">THB 1,740.00</div>
+                </div>
+              </div>
+              <div class="stats-item">
+                <div class="stats-img-wrap">
+                  <img src="assest/curio.jpg" alt="">
+                  <button class="add-btn">+</button>
+                </div>
+                <div>
+                  <b>Curiocity</b>
+                  <div class="stats-price">Free</div>
+                </div>
+              </div>
+      </section>
+
+      <section class="section-container">
+        <div class="section-header">
+          <h2>Top New Releases ></h2>
+          <div class="carousel-controls">
+            <button class="control-btn prev-btn6">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+              </svg>
+            </button>
+            <button class="control-btn next-btn6">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="carousel-container">
+          <div id="carousel-track6" class="carousel-track">
+
+            <!-- first page -->
+
+            <div class="game-card most-item">
+              <img src="assest/bf6.png" alt="battlefield 6">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>battlefield 6</h3>
+                <div class="price">THB 1,990.00 </div>
+              </div>
+            </div>
+            <div class="game-card most-item">
+              <img src="assest/sup.jpg" alt="SUPERVIVE">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>SUPERVIVE</h3>
+                <div class="price">Free</div>
+              </div>
+            </div>
+            <div class="game-card most-item">
+              <img src="assest/dly.jpg" alt="Dying Light The Beast">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Dying Light The Beast</h3>
+                <div class="price"> THB 1,799.00 </div>
+              </div>
+            </div>
+            <div class="game-card most-item">
+              <img src="assest/bor.jpg" alt="Borderlands®4">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Borderlands®4</h3>
+                <div class="price"> THB 1,790.00 </div>
+              </div>
+            </div>
+            <div class="game-card most-item">
+              <img src="assest/sih.jpg" alt="SILEN HILL f">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>SILEN HILL f</h3>
+                <div class="price"> THB 2,113.00 </div>
+              </div>
+            </div>
+            <div class="game-card most-item">
+              <img src="assest/term.jpg" alt="Terminull Brigade™">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Terminull Brigade™</h3>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+
+            <!-- second page -->
+
+            <div class="game-card most-item">
+              <img src="assest/off.jpg" alt="OFF">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>OFF</h3>
+                <div class="price"> THB 315.00 </div>
+              </div>
+            </div>
+            <div class="game-card most-item">
+              <img src="assest/demon.png" alt="Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Demon Slayer -Kimetsu no Yaiba 2</h3>
+                <div class="price">Free</div>
+              </div>
+            </div>
+            <div class="game-card most-item">
+              <img src="assest/death2.jpg" alt="Grand Thef Auto Five">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Death Standing 2</h3>
+                <div class="price"> THB 1,970.00 </div>
+              </div>
+            </div>
+            <div class="game-card most-item">
+              <img src="assest/cs2.jpg" alt="Counter-Strike 2">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Counter-Strike 2</h3>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card most-item">
+              <img src="https://tinyurl.com/3pdbyn28" alt="Apex Legends">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Apex Legends™</h3>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card most-item">
+              <img src="assest/abyssus.jpg" alt="Clair Obscur: Expedition 33">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Abyssus</h3>
+                <div class="price"> THB 240.00 </div>
+              </div>
+            </div>
+
+            <!-- third page -->
+
+            <div class="game-card most-item">
+              <img src="assest/re4.jpg" alt="Killing Floor 3">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Resident Evil 4</h3>
+                <div class="price"> THB 2,100.00 </div>
+              </div>
+            </div>
+            <div class="game-card most-item">
+              <img src="assest/elden.jpg" alt="ELDEN RING">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>ELDEN RING</h3>
+                <div class="price"> THB 1,790.00 </div>
+              </div>
+            </div>
+            <div class="game-card most-item">
+              <img src="assest/re6.jpg" alt="Resident Evil 6">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Resident Evil 6</h3>
+                <div class="price"> THB 540.00 </div>
+              </div>
+            </div>
+            <div class="game-card most-item">
+              <img src="assest/tforest.jpg" alt="The Forest">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>The Forest</h3>
+                <div class="price"> THB 289.00 </div>
+              </div>
+            </div>
+            <div class="game-card most-item">
+              <img src="assest/monh.jpg" alt="Monster Hunter World">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Monster Hunter World</h3>
+                <div class="price"> THB 810.00 </div>
+              </div>
+            </div>
+            <div class="game-card most-item">
+              <img src="assest/fxv.jpg" alt="Final Fantasy XV">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Final Fantasy XV</h3>
+                <div class="price"> THB 1,869.00 </div>
+              </div>
+            </div>
+
+            <!-- fouth page -->
+
+            <div class="game-card most-item">
+              <img src="assest/sekiro.jpg" alt="Sekiro">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Sekiro™: Shadows Die Twice</h3>
+                <div class="price"> THB 2,099.00</div>
+              </div>
+            </div>
+            <div class="game-card most-item">
+              <img src="assest/delt.jpg" alt="Resident Evil 4 (2005)">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Delta Force</h3>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card most-item">
+              <img src="assest/tlof.jpg" alt="The Last of Us™ Part I ">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>The Last of Us™ Part I</h3>
+                <div class="price"> THB 1,690.00 </div>
+              </div>
+            </div>
+            <div class="game-card most-item">
+              <img src="assest/k3.png" alt="DEVOUR">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Killing Floor 3 </h3>
+                <div class="price"> THB 1790.00</div>
+              </div>
+            </div>
+            <div class="game-card most-item">
+              <img src="assest/re3.jpg" alt="Resident Evil 3">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Resident Evil 3™</h3>
+                <div class="price"> THB 1,090.00</div>
+              </div>
+            </div>
+            <div class="game-card most-item">
+              <img src="assest/diablo.jpg" alt="Diablo IV">
+              <button class="hover-btn">+</button>
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Diablo IV</h3>
+                <div class="price"> THB 1,749.00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-container">
+        <div class="section-header">
+          <h2>Recently Updated ></h2>
+          <div class="carousel-controls">
+            <button class="control-btn prev-btn7">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+              </svg>
+            </button>
+            <button class="control-btn next-btn7">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="carousel-container">
+          <div id="carousel-track7" class="carousel-track">
+
+            <!-- first page -->
+
+            <div class="game-card up-item">
+              <img src="assest/marvel.jpg" alt="Black Myth Wukong">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Marvel Rivals</h3>
+                <button class="hover-btn">+</button>
+                <div class="price">Free </div>
+              </div>
+            </div>
+            <div class="game-card up-item">
+              <img src="assest/apex.jpg" alt="Team Fortress 2">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Apex Legend</h3>
+                <button class="hover-btn">+</button>
+                <div class="price">Free</div>
+              </div>
+            </div>
+            <div class="game-card up-item">
+              <img src="assest/33.png" alt="REPO">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Expendition 33</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 990.00 </div>
+              </div>
+            </div>
+            <div class="game-card up-item">
+              <img src="assest/dota2.jpg" alt="PEAK">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>DOTA2</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card up-item">
+              <img src="assest/cs2.jpg" alt="Devil May Cry 5">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Counter Strike 2</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> Free</div>
+              </div>
+            </div>
+            <div class="game-card up-item">
+              <img src="assest/bf6.png" alt="Spider-Man 2">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Battle Filed 6</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,990 </div>
+              </div>
+            </div>
+
+            <!-- second page -->
+
+            <div class="game-card up-item">
+              <img src="assest/coral.png" alt="God of War Ragnarök">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Coral Island</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 580.00 </div>
+              </div>
+            </div>
+            <div class="game-card up-item">
+              <img src="assest/valo.jpg" alt="MY HERO ULTRA RUMBLE">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>VALORANT</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card up-item">
+              <img src="assest/knight.jpg" alt="Grand Thef Auto Five">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Knightica</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> coming soon </div>
+              </div>
+            </div>
+            <div class="game-card up-item">
+              <img src="assest/cs2.jpg" alt="Counter-Strike 2">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Counter-Strike 2</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card up-item">
+              <img src="assest/wukong.jpg" alt="Apex Legends">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Black Myth Wukong</h3>
+                <button class="hover-btn">+</button>
+                <div class="price">THB 1,990.00 </div>
+              </div>
+            </div>
+            <div class="game-card up-item">
+              <img src="assest/re8.png" alt="re">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Residet Evil Village</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 790.00 </div>
+              </div>
+            </div>
+
+            <!-- third page -->
+
+            <div class="game-card up-item">
+              <img src="assest/naruto4n.png" alt="Killing Floor 3">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Naruto Ninja Storm 4</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 340.00</div>
+              </div>
+            </div>
+            <div class="game-card up-item">
+              <img src="assest/demon.png" alt="ELDEN RING">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Kimetsu no Yaiba 2</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,290.00 </div>
+              </div>
+            </div>
+            <div class="game-card up-item">
+              <img src="assest/death2.jpg" alt="Resident Evil 6">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Death Standing 2</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,990.00</div>
+              </div>
+            </div>
+            <div class="game-card up-item">
+              <img src="assest/sig.jpg" alt="The Forest">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>SIGNALS</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 289.00 </div>
+              </div>
+            </div>
+            <div class="game-card up-item">
+              <img src="assest/death1.jpg" alt="Monster Hunter World">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Death Standig</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,200.00 </div>
+              </div>
+            </div>
+            <div class="game-card up-item">
+              <img src="assest/coral.png" alt="Final Fantasy XV">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Coral Island</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 540.00</div>
+              </div>
+            </div>
+
+            <!-- fouth page -->
+
+            <div class="game-card up-item">
+              <img src="assest/sekiro.jpg" alt="Sekiro">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Sekiro™: Shadows Die Twice</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 2,099</div>
+              </div>
+            </div>
+            <div class="game-card up-item">
+              <img src="assest/re4.jpg" alt="Resident Evil 4 (2005)">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Resident Evil 4</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card up-item">
+              <img src="assest/dly.jpg " alt="The Last of Us™ Part I ">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Dying Light The Beast</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,990.00 </div>
+              </div>
+            </div>
+            <div class="game-card up-item">
+              <img src="assest/devour.jpg" alt="DEVOUR">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>DEVOUR</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 220</div>
+              </div>
+            </div>
+            <div class="game-card up-item">
+              <img src="assest/re3.jpg" alt="Resident Evil 3">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Resident Evil 3™</h3>
+                <div class="price"> THB 1,090</div>
+                <button class="hover-btn">+</button>
+              </div>
+            </div>
+            <div class="game-card up-item">
+              <img src="assest/repo.jpg" alt="Diablo IV">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>R.E.P.O</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 250.00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-container">
+        <div class="section-header">
+          <h2>Now On The Epic Games Store ></h2>
+          <div class="carousel-controls">
+            <button class="control-btn prev-btn8">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+              </svg>
+            </button>
+            <button class="control-btn next-btn8">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="carousel-container">
+          <div id="carousel-track8" class="carousel-track">
+
+            <!-- first page -->
+
+            <div class="game-card now-item">
+              <img src="assest/pubg.png" alt="Black Myth Wukong">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>PUBG</h3>
+                <button class="hover-btn">+</button>
+                <div class="price">Free </div>
+              </div>
+            </div>
+            <div class="game-card now-item">
+              <img src="assest/elden.jpg" alt="Team Fortress 2">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>ELDEN RING</h3>
+                <button class="hover-btn">+</button>
+                <div class="price">1,790.00</div>
+              </div>
+            </div>
+            <div class="game-card now-item">
+              <img src="assest/apex.jpg" alt="REPO">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Apex Leagend</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card now-item">
+              <img src="assest/bor.jpg" alt="PEAK">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Borderlands®4</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,790.00 </div>
+              </div>
+            </div>
+            <div class="game-card now-item">
+              <img src="assest/dota2.jpg" alt="Devil May Cry 5">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>DOTA2</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card now-item">
+              <img src="assest/delt.jpg" alt="Spider-Man 2">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Delta Force</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+
+            <!-- second page -->
+
+            <div class="game-card now-item">
+              <img src="assest/godofwar.jpg" alt="God of War Ragnarök">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>God of War Ragnarök</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,690 </div>
+              </div>
+            </div>
+            <div class="game-card now-item">
+              <img src="assest/valo.jpg" alt="MY HERO ULTRA RUMBLE">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>VALORANT</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card now-item">
+              <img src="assest/knight.jpg" alt="Grand Thef Auto Five">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Knightica</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> coming soon </div>
+              </div>
+            </div>
+            <div class="game-card now-item">
+              <img src="assest/cs2.jpg" alt="Counter-Strike 2">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Counter-Strike 2</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card now-item">
+              <img src="assest/wukong.jpg" alt="Apex Legends">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Black Myth Wukong</h3>
+                <button class="hover-btn">+</button>
+                <div class="price">THB 1,990.00 </div>
+              </div>
+            </div>
+            <div class="game-card now-item">
+              <img src="assest/re8.png" alt="re">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Residet Evil Village</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 790.00 </div>
+              </div>
+            </div>
+
+            <!-- third page -->
+
+            <div class="game-card now-item">
+              <img src="assest/naruto4n.png" alt="Killing Floor 3">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Naruto Ninja Storm 4</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 340.00</div>
+              </div>
+            </div>
+            <div class="game-card now-item">
+              <img src="assest/demon.png" alt="ELDEN RING">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Kimetsu no Yaiba 2</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,290.00 </div>
+              </div>
+            </div>
+            <div class="game-card now-item">
+              <img src="assest/death2.jpg" alt="Resident Evil 6">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Death Standing 2</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,990.00</div>
+              </div>
+            </div>
+            <div class="game-card now-item">
+              <img src="assest/sig.jpg" alt="The Forest">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>SIGNALS</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 289.00 </div>
+              </div>
+            </div>
+            <div class="game-card now-item">
+              <img src="assest/death1.jpg" alt="Monster Hunter World">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Death Standig</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,200.00 </div>
+              </div>
+            </div>
+            <div class="game-card now-item">
+              <img src="assest/coral.png" alt="Final Fantasy XV">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Coral Island</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 540.00</div>
+              </div>
+            </div>
+
+            <!-- fouth page -->
+
+            <div class="game-card now-item">
+              <img src="assest/sekiro.jpg" alt="Sekiro">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Sekiro™: Shadows Die Twice</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 2,099</div>
+              </div>
+            </div>
+            <div class="game-card now-item">
+              <img src="assest/re4.jpg" alt="Resident Evil 4 (2005)">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Resident Evil 4</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> Free </div>
+              </div>
+            </div>
+            <div class="game-card now-item">
+              <img src="assest/dly.jpg " alt="The Last of Us™ Part I ">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Dying Light The Beast</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 1,990.00 </div>
+              </div>
+            </div>
+            <div class="game-card now-item">
+              <img src="assest/devour.jpg" alt="DEVOUR">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>DEVOUR</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 220</div>
+              </div>
+            </div>
+            <div class="game-card now-item">
+              <img src="assest/re3.jpg" alt="Resident Evil 3">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>Resident Evil 3™</h3>
+                <div class="price"> THB 1,090</div>
+                <button class="hover-btn">+</button>
+              </div>
+            </div>
+            <div class="game-card now-item">
+              <img src="assest/repo.jpg" alt="Diablo IV">
+              <div class="game-info">
+                <h5>Base Game</h5>
+                <h3>R.E.P.O</h3>
+                <button class="hover-btn">+</button>
+                <div class="price"> THB 250.00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content">
+        <div class="slideshow-container">
+          <div class="slides-wrapper">
+            <div class="game-suggest">
+              <img src="assest/death1b.jpg" alt="Game 7">
+              <button class="hover-btn">+</button>
+              <h3>Death Standing </h3>
+              <div class="describe">From legendary game creator Hideo Kojima comes a mashup of the genre-defining
+                Director's Cut
+                expansions. Set</div>
+              <a class="see-in-shop-btn" href="#" target="_blank">
+                <div class="price">See In Shop</div>
+                <svg style="vertical-align: middle; margin-left: 4px;" width="16" height="16" viewBox="0 0 24 24"
+                  fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+              </a>
+            </div>
+            <div class="game-suggest">
+              <img src="assest/silh.jpg" alt="Game 8">
+              <button class="hover-btn">+</button>
+              <h3>Silent Hill 2</h3>
+              <div class="describe">Having received a letter from his deceased wife, James heads to where they shared so
+                many
+                memorie.</div>
+              <a class="see-in-shop-btn" href="#" target="_blank">
+                <div class="price">See In Shop</div>
+                <svg style="vertical-align: middle; margin-left: 4px;" width="16" height="16" viewBox="0 0 24 24"
+                  fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+              </a>
+            </div>
+            <div class="game-suggest">
+              <img src="assest/bers.jpg" alt="Game 9">
+              <button class="hover-btn">+</button>
+              <h3>Berserk and the Band the Hawk</h3>
+              <div class="describe">The dark and profound world of "Berserk," a dark fantasy comic series that has sold
+                over 40
+                million copies, is faithfully reproduced in this game.</div>
+              <a class="see-in-shop-btn" href="#" target="_blank">
+                <div class="price">See In Shop</div>
+                <svg style="vertical-align: middle; margin-left: 4px;" width="16" height="16" viewBox="0 0 24 24"
+                  fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="slideshow-dots"></div>
+      </section>
+    </div>
+
+
+
+    <hr class="custom-divider">
+    <div class="note-text" style="text-align: left;">
+        * The lowest price offered on The Epic Games Store in the last 30 days before discount
+    </div>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>Games <span class="dropdown-arrow">▼</span></h3>
+          <ul class="footer-list">
+            <li class="footer-something">Devil May Cry</li>
+            <li class="footer-something">The Coma</li>
+            <li class="footer-something">Resident Evil</li>
+            <li class="footer-something">Spider-Man 2</li>
+            <li class="footer-something">Dota 2</li>
+            <li class="footer-something">Marvel Rivals</li>
+            <li class="footer-something">Overcooked</li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Marketplaces <span class="dropdown-arrow">▼</span></h3>
+          <ul class="footer-list">
+            <li class="footer-something">Steam</li>
+            <li class="footer-something">Fab</li>
+            <li class="footer-something">Sketchfab</li>
+            <li class="footer-something">ArtStation</li>
+            <li class="footer-something">Store Refund Policy</li>
+            <li class="footer-something">Store EULA</li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Tools <span class="dropdown-arrow">▼</span></h3>
+          <ul class="footer-list">
+            <li class="footer-something">Unreal Engine</li>
+            <li class="footer-something">UEFN</li>
+            <li class="footer-something">MetaHuman</li>
+            <li class="footer-something">Twinmotion</li>
+            <li class="footer-something">Megascans</li>
+            <li class="footer-something">RealityScan</li>
+            <li class="footer-something">Rad Game Tools</li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Online Services <span class="dropdown-arrow">▼</span></h3>
+          <ul class="footer-list">
+            <li class="footer-something">Steam Services</li>
+            <li class="footer-something">Kids Web Services</li>
+            <li class="footer-something">Services Agreement</li>
+            <li class="footer-something">Acceptable Use Policy</li>
+            <li class="footer-something">Trust Statement</li>
+            <li class="footer-something">Subprocessor List</li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Company <span class="dropdown-arrow">▼</span></h3>
+          <ul class="footer-list">
+            <li class="footer-something">About</li>
+            <li class="footer-something">Newsroom</li>
+            <li class="footer-something">Careers</li>
+            <li class="footer-something">Students</li>
+            <li class="footer-something">UX Research</li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Resources <span class="dropdown-arrow">▼</span></h3>
+          <ul class="footer-list">
+            <li class="footer-something">Dev Community</li>
+            <li class="footer-something">MegaGrants</li>
+            <li class="footer-something">Support-A-Creator</li>
+            <li class="footer-something">Creator Agreement</li>
+            <li class="footer-something">Distribute on Epic Games</li>
+            <li class="footer-something">Unreal Engine Branding Guidelines</li>
+            <li class="footer-something">Fan Art Policy</li>
+            <li class="footer-something">Community Rules</li>
+            <li class="footer-something">EU Digital Services Act Inquiries</li>
+            <li class="footer-something">Steam Support</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the
+          US and other countries.
+          VAT included in all prices where applicable.</p>
+        <button class="back-to-top">Back to top ↑</button>
+      </div>
+
+      <div class="footer-footer">
+        <div class="footer-something">About Valve</div>
+        <div class="footer-something">Jobs</div>
+        <div class="footer-something">Steamworks</div>
+        <div class="footer-something">Steam Distribution</div>
+        <div class="footer-something">Support</div>
+        <div class="footer-something">Gift Card</div>
+      </div>
+
+
+    </footer>
+
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
